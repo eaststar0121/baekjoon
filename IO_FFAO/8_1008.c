@@ -6,6 +6,6 @@ int		main(void)
 	int b;
 
 	scanf("%d %d", &a, &b);
-	printf("%f", (float)a/b);
+	printf("%.1f", (float)a/b);
 	return (0);
 }
