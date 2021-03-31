@@ -13,7 +13,9 @@ int		main(void)
 		m -= 45;
 		if(h < 0)
 			h += 24;
+		printf("%d %d", h, m);
 	}
-	printf("%d %d", h, m);
+	else
+		printf("%d %d", h, m - 45);
 	return 0;
 }
