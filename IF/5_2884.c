@@ -17,5 +17,5 @@ int		main(void)
 	}
 	else
 		printf("%d %d", h, m - 45);
-	return 0;
+	return (0);
 }
