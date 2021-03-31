@@ -1,8 +1,8 @@
-#include <unistd.h>
+#include <stdio.h>
 
 int		main(void)
 {
-	write(1, "강한친구 대한육군\n", 10);
-	write(1, "강한친구 대한육군\n", 10);
+	printf("강한친구 대한육군\n");
+	printf("강한친구 대한육군\n");
 	return (0);
 }
