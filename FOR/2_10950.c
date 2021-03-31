@@ -11,7 +11,7 @@ int		main(void)
 	for(i = 0; i < j; i++)
 	{
 		scanf("%d %d", &a, &b);
-		printf("%d", a+b);
+		printf("%d\n", a+b);
 	}
 	return 0;
 }
