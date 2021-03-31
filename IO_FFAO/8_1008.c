@@ -2,10 +2,10 @@
 
 int		main(void)
 {
-	int a;
-	int b;
+	double a;
+	double b;
 
-	scanf("%d %d", &a, &b);
-	printf("%.1f", (float)a/b);
+	scanf("%lf %lf", &a, &b);
+	printf("%.9lf", a/b);
 	return (0);
 }
